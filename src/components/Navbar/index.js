@@ -30,14 +30,14 @@ return (
 		<NavLink to='/blogs' activeStyle>
 			Blogs
 		</NavLink>
-		<NavLink to='/sign-up' activeStyle>
-			Sign Up
-		</NavLink>
 		{/* Second Nav */}
 		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 		</NavMenu>
 		<NavBtn>
-		<NavBtnLink to='/signin'>Sign In</NavBtnLink>
+			<NavLink to='/sign-up' activeStyle>
+				Sign Up
+			</NavLink>
+			<NavBtnLink to='/signin'>Sign In</NavBtnLink>
 		</NavBtn>
 	</Nav>
 	</>

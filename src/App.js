@@ -9,7 +9,10 @@ import AnnualReport from './pages/annual';
 import Teams from './pages/team';
 import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
+<<<<<<< HEAD
 import SignIn from './pages/signin';
+=======
+>>>>>>> update navbar
 
 function App() {
 return (
@@ -23,7 +26,10 @@ return (
 		<Route path='/team' component={Teams} />
 		<Route path='/blogs' component={Blogs} />
 		<Route path='/sign-up' component={SignUp} />
+<<<<<<< HEAD
     <Route path='/sign-in' component={SignIn} />
+=======
+>>>>>>> update navbar
 	</Routes>
 	</Router>
 );
