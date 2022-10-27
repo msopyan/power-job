@@ -12,7 +12,7 @@ class Title extends React.Component {
     render(){
         return(
             <div>
-                <h1>{this.state.title}</h1>
+                <h1 class="flex items-center px-4 py-3 text-white bg-blue-500 hover:bg-blue-400">{this.state.title}</h1>
                 <p>{this.state.subTitle}</p>
             </div>
         );
